@@ -26,7 +26,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "Andrea Segura"
+    PROJECT_NAME: str = "Banckchurn API"
 
     class Config:
         case_sensitive = True
